@@ -70,7 +70,7 @@ export default {
     Club_list
   },
   async setup() {
-    const response = await axios.get('http://127.0.0.1:8000/clubs/')
+    const response = await axios.get('http://85.193.83.204/clubs/')
     const clubs = response.data
     return {
       clubs

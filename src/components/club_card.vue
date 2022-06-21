@@ -8,7 +8,7 @@
       <v-carousel-item v-for="picture in club.pictures" :key="picture">
 
         <v-img height="200"
-               :src="'http://127.0.0.1:8000' + picture.image"
+               :src="'http://85.193.83.204/:8000' + picture.image"
                cover>
           <v-row
               class="fill-height"
